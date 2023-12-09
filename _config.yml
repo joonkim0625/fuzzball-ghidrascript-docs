@@ -2,7 +2,7 @@ title: FuzzBALL Integration With Ghidra
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://joonkim0625.github.io/fuzzball-ghidrascript
+url: https://joonkim0625.github.io/fuzzball-ghidrascript/
 
   #aux_links:
   #  Template Repository: https://github.com/just-the-docs/just-the-docs-template
