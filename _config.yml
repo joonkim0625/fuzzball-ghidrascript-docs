@@ -2,8 +2,8 @@ title: FuzzBALL-GhidraScript
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://joonkim0625.github.io/fuzzball-ghidrascript/
-repository: joonkim0625/fuzzball-ghidrascript
+url: https://joonkim0625.github.io/fuzzball-ghidrascript-docs/
+repository: joonkim0625/fuzzball-ghidrascript-docs
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
