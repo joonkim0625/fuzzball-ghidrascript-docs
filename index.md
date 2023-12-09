@@ -5,25 +5,36 @@ nav_order: 1
 permalink: /
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+Welcome!
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+This project, conducted under the supervision of Professor McCamant at the
+University of Minnesota, is on a mission to elevate the accessibility of
+FuzzBALL, a powerful symbolic execution tool for binary code available on GitHub
+at [https://github.com/bitblaze-fuzzball/fuzzball](https://github.com/bitblaze-fuzzball/fuzzball). In focusing on two pivotal aspects, we aim to make FuzzBALL
+more user-friendly and relevant to a broader audience.
 
-More specifically, the created site:
+**Linux Compatibility**: The project's primary goal is to ensure the seamless
+integration of FuzzBALL with modern Linux-based operating systems, including the
+widely used Ubuntu. By enhancing compatibility, we're making FuzzBALL more
+user-friendly and extending its relevance to a broader audience. For now, the
+project aims to be compatible with Ubuntu 20.04. 
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+**Integration with Ghidra**: I am excited to share the progress made in developing
+a Ghidra script that facilitates the integration of FuzzBALL with
+Ghidra, a leading reverse engineering tool. This integration empowers users to
+harness FuzzBALL's capabilities directly within the Ghidra environment,
+enhancing binary analysis and streamlining workflows.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+Why does it matter?
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+The main objective of this project is to invite the Capture the Flag (CTF)
+community into the world of FuzzBALL. I am confident that FuzzBALL can serve as
+an invaluable tool for conquering CTF challenges. Through this initiative, our
+goal is not only to expand the FuzzBALL user base but also to establish a
+valuable resource for those passionate about binary analysis and security. Join
+us on this exciting journey as we make FuzzBALL more accessible, user-friendly,
+and indispensable for the CTF community. Let's unlock the full potential of
+FuzzBALL together!
 
 ----
 
