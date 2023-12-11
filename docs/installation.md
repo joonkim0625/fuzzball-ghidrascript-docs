@@ -38,17 +38,24 @@ nav_order: 2
    ~/<Path to Ghidra>/Ghidra/Features/Python/ghidra_script
    ```
 
+   `fuzzball.py` can be placed in any directory of your choice.
+
 7. If you have successfully moved the script into the Ghidra script folder, you
    will be able to see the script from Ghidra Script Manager. 
 
-   ![menu-loc](../assets/ScriptManager-from-menu.png)
-
-   You can launch `Ghidra Script Manager` by going to `Windows` and then select `Script Manager`.
-
-   ![fuzzball-script-loc](../assets/FuzzBALL-script-location.png)
+    You can launch `Ghidra Script Manager` by going to `Windows` and then select
+    `Script Manager`.
 
 
-For more detailed information and usage instructions, refer to the [project documentation](https://joonkim0625.github.io/fuzzball-ghidrascript-docs/).
+    ![menu-loc](../assets/ScriptManager-from-menu.png)
+
+    There is a sidebar on the left, and you can navigate through it to find the script.
+
+    ![fuzzball-script-loc](../assets/FuzzBALL-script-location.png)
+
+<br>
+
+For how to use the script, refer to the [Usage](./usage.html) page.
 
 Feel free to reach out if you encounter any issues or have questions.
 
