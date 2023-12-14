@@ -29,6 +29,11 @@ nav_order: 2
     fuzzball  fuzzball.py  z3
     ```
 
+    You need to place z3 into the /usr/bin directory so that it can be used by
+    FuzzBALL when executed. This can be achieved by running sudo cp z3 /usr/bin
+    (the use of sudo is necessary as the /usr/bin/ path requires system
+    privileges for access).
+
 6. Based on the location of Ghidra installed path, you need to copy the script
    file `fuzzball.py` into the Ghidra Script Manager. For example, if you have
    installed `Ghidra` at the top of your home directory `~/`, the path where
